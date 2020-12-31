@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.title{
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.table.clients-list{
+	
+	margin: 0 auto;
+}
+
+.clients-list button, .clients-list input.btn{
+		width: 90%;
+		font-size: 12px;
+}	
+
+#javax_faces_developmentstage_messages {
+	display: none;
+}
+
+@media (max-width:768px){
+	.clients-list button, .clients-list input.btn{
+		width: calc(100% - 20px);
+		font-size: 12px;
+	}	
+}
